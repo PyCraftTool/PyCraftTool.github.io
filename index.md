@@ -13,42 +13,40 @@
 [//]: # ()
 [//]: # ([//]: # &#40;There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.&#41;)
 [//]: # ()
-# Instruction
+# PyCraft
 PyCraft is a tool that refactors your python code!
 
 
 [//]: # ()
 [//]: # (This is a replication package for the Pycraft tool submitted to FSE 2024.)
 
-[//]: # ()
-[//]: # (## Header 2)
 
-[//]: # ()
-[//]: # (> This is a blockquote following a header.)
+## Header 2
 
-[//]: # (>)
 
-[//]: # (> When something is important enough, you do it even if the odds are not in your favor.)
+> This is a blockquote following a header.
 
-[//]: # ()
-[//]: # (### Header 3)
+>
 
-[//]: # ()
-[//]: # (```js)
+> When something is important enough, you do it even if the odds are not in your favor.
 
-[//]: # (// Javascript code with syntax highlighting.)
 
-[//]: # (var fun = function lang&#40;l&#41; {)
+### Header 3
 
-[//]: # (  dateformat.i18n = require&#40;'./lang/' + l&#41;)
 
-[//]: # (  return true;)
+```js
 
-[//]: # (})
+// Javascript code with syntax highlighting.
 
-[//]: # (```)
+var fun = function lang(l) {
 
-[//]: # ()
-[//]: # (```ruby)
+  dateformat.i18n = require('./lang/' + l)
 
-[//]: # (# Ruby code with syntax highlighting)
+  return true;
+
+}
+
+```
+
+```ruby
+# Ruby code with syntax highlighting
