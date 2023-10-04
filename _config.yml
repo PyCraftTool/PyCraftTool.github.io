@@ -1,5 +1,5 @@
-title: PyCraft
-description: This is a replication package for the Pycraft Tool.
-show_downloads: false
+title: Slate theme
+description: Slate is a theme for GitHub Pages.
+show_downloads: true
 google_analytics:
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
