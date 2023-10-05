@@ -31,19 +31,19 @@ for generating variants (gpt-3.5)
 <td>1</td>
 <td>
 
-```python
+<pre>
 count = 0
 for i in int_list:
    count = count + i
-```
+</pre>
 
 </td>
 <td>
 
-```python
+<pre>
 import numpy as np
 count = np.sum(int_list)
-```
+</pre>
 
 </td>
 <td>1185</td>
@@ -55,17 +55,17 @@ count = np.sum(int_list)
 <td>2</td>
 <td>
 
-```python
+<pre>
 for k, v in add_dict.items():
     d[k] = v 
-```
+</pre>
 
 </td>
 <td>
 
-```python
+<pre>
 d.update(add_dict)
-```
+</pre>
 
 </td>
 <td>1201</td>
@@ -77,20 +77,20 @@ d.update(add_dict)
 <td>3</td>
 <td>
 
-```python
+<pre>
 common = []
 for i in l1:
     if i in l2 and i not in common:
         common.append(i)
-```
+</pre>
 
 </td>
 <td>
 
-```python
+<pre>
 common = list(set(l1).
             intersection(l2))
-```
+</pre>
 
 </td>
 <td>782 </td>
@@ -102,21 +102,21 @@ common = list(set(l1).
 <td>4</td>
 <td>
 
-```python
+<pre>
 string = "["
 for idx, item in enumerate(values):
     if idx != 0:
         string += ", "
     string += item
 string += "]"
-```
+</pre>
 
 </td>
 <td>
 
-```python
+<pre>
 string = "[" + ", ".join(values)+ "]"
-```
+</pre>
 
 </td>
 <td>285 </td>
@@ -128,23 +128,23 @@ string = "[" + ", ".join(values)+ "]"
 <td>5</td>
 <td>
 
-```python
+<pre>
 d = {}
 for i in array:
   if i in d:
     d[i].append(f(i))
   else:
     d[i] = [f(i)]
-```
+</pre>
 
 </td>
 <td>
 
-```python
+<pre>
 d = {}
 for i in array:
     d.setdefault(i, []).append(f(i))
-```
+</pre>
 
 </td>
 <td>1265 </td>
@@ -156,21 +156,21 @@ for i in array:
 <td>6</td>
 <td>
 
-```python
+<pre>
 counts = {}
 for i in iterable:
     if i not in counts:
         counts[i] = 0
     counts[i] += 1
-```
+</pre>
 
 </td>
 <td>
 
-```python
+<pre>
 from collections import Counter
 counts = Counter(iterable)
-```
+</pre>
 
 </td>
 <td>927 </td>
@@ -182,19 +182,19 @@ counts = Counter(iterable)
 <td>7</td>
 <td>
 
-```python
+<pre>
 cum_arr = []
 for i in range(len(array)):
     cum_arr.append(sum(array[:i+1]))
-```
+</pre>
 
 </td>
 <td>
 
-```python
+<pre>
 import numpy as np
 cum_arr = np.cumsum(array)
-```
+</pre>
 
 </td>
 <td>1223</td>
@@ -206,19 +206,19 @@ cum_arr = np.cumsum(array)
 <td>8</td>
 <td>
 
-```python
+<pre>
 dot_prod = 0
 for i in range(len(arr1)):
     dot_prod += arr1[i] * arr2[i]
-```
+</pre>
 
 </td>
 <td>
 
-```python
+<pre>
 import numpy as np
 dot_prod = np.dot(arr1, arr2)
-```
+</pre>
 
 </td>
 <td>177 </td>
@@ -230,19 +230,19 @@ dot_prod = np.dot(arr1, arr2)
 <td>9</td>
 <td>
 
-```python
+<pre>
 result = []
 for i in range(len(array1)):
     result.append(array1[i] + array2[i])
-```
+</pre>
 
 </td>
 <td>
 
-```python
+<pre>
 import numpy as np
 result = np.add(array1, array2)
-```
+</pre>
 
 </td>
 <td>64 </td>
@@ -254,20 +254,20 @@ result = np.add(array1, array2)
 <td>10</td>
 <td>
 
-```python
+<pre>
 t = []
 for i in range(len(elem)):
     if cond(elem[i]):
          t.append(elem[i])  
-```
+</pre>
 
 </td>
 <td>
 
-```python
+<pre>
 t = [elem[i] for i in range(len(elem)) 
         if cond(elem[i])]
-```
+</pre>
 
 </td>
 <td>955 </td>
