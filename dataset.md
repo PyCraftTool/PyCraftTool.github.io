@@ -31,7 +31,7 @@ for generating variants (gpt-3.5)
 <td>1</td>
 <td>
 
-```
+```python
 count = 0
 for i in int_list:
    count = count + i
@@ -40,7 +40,7 @@ for i in int_list:
 </td>
 <td>
 
-```
+```python
 import numpy as np
 count = np.sum(int_list)
 ```
@@ -55,7 +55,7 @@ count = np.sum(int_list)
 <td>2</td>
 <td>
 
-```
+```python
 for k, v in add_dict.items():
     d[k] = v 
 ```
@@ -63,7 +63,7 @@ for k, v in add_dict.items():
 </td>
 <td>
 
-```
+```python
 d.update(add_dict)
 ```
 
@@ -77,7 +77,7 @@ d.update(add_dict)
 <td>3</td>
 <td>
 
-```
+```python
 common = []
 for i in l1:
     if i in l2 and i not in common:
@@ -87,7 +87,7 @@ for i in l1:
 </td>
 <td>
 
-```
+```python
 common = list(set(l1).
             intersection(l2))
 ```
@@ -102,7 +102,7 @@ common = list(set(l1).
 <td>4</td>
 <td>
 
-```
+```python
 string = "["
 for idx, item in enumerate(values):
     if idx != 0:
@@ -114,7 +114,7 @@ string += "]"
 </td>
 <td>
 
-```
+```python
 string = "[" + ", ".join(values)+ "]"
 ```
 
@@ -128,7 +128,7 @@ string = "[" + ", ".join(values)+ "]"
 <td>5</td>
 <td>
 
-```
+```python
 d = {}
 for i in array:
   if i in d:
@@ -140,7 +140,7 @@ for i in array:
 </td>
 <td>
 
-```
+```python
 d = {}
 for i in array:
     d.setdefault(i, []).append(f(i))
@@ -156,7 +156,7 @@ for i in array:
 <td>6</td>
 <td>
 
-```
+```python
 counts = {}
 for i in iterable:
     if i not in counts:
@@ -167,7 +167,7 @@ for i in iterable:
 </td>
 <td>
 
-```
+```python
 from collections import Counter
 counts = Counter(iterable)
 ```
@@ -182,7 +182,7 @@ counts = Counter(iterable)
 <td>7</td>
 <td>
 
-```
+```python
 cum_arr = []
 for i in range(len(array)):
     cum_arr.append(sum(array[:i+1]))
@@ -191,7 +191,7 @@ for i in range(len(array)):
 </td>
 <td>
 
-```
+```python
 import numpy as np
 cum_arr = np.cumsum(array)
 ```
@@ -206,7 +206,7 @@ cum_arr = np.cumsum(array)
 <td>8</td>
 <td>
 
-```
+```python
 dot_prod = 0
 for i in range(len(arr1)):
     dot_prod += arr1[i] * arr2[i]
@@ -215,7 +215,7 @@ for i in range(len(arr1)):
 </td>
 <td>
 
-```
+```python
 import numpy as np
 dot_prod = np.dot(arr1, arr2)
 ```
@@ -230,7 +230,7 @@ dot_prod = np.dot(arr1, arr2)
 <td>9</td>
 <td>
 
-```
+```python
 result = []
 for i in range(len(array1)):
     result.append(array1[i] + array2[i])
@@ -239,7 +239,7 @@ for i in range(len(array1)):
 </td>
 <td>
 
-```
+```python
 import numpy as np
 result = np.add(array1, array2)
 ```
@@ -254,7 +254,7 @@ result = np.add(array1, array2)
 <td>10</td>
 <td>
 
-```
+```python
 t = []
 for i in range(len(elem)):
     if cond(elem[i]):
@@ -264,7 +264,7 @@ for i in range(len(elem)):
 </td>
 <td>
 
-```
+```python
 t = [elem[i] for i in range(len(elem)) 
         if cond(elem[i])]
 ```
