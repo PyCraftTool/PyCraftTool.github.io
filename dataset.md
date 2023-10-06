@@ -9,8 +9,8 @@ back our findings in various research questions.
 ## Table 1
 The table below adds details to the _table 1_ 
 described in the paper.
-<div>
-<table style="overflow-x:scroll">
+<div style="overflow-x:scroll">
+<table>
     <tr>
         <td>CPAT Number</td>
         <td>LHS</td>
