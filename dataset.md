@@ -350,14 +350,14 @@ t = [elem[i] for i in range(len(elem))
     </tr>
 </table>
 </div>
-## RQ1
+## [RQ1](/rq1)
 In this research question, we quantitatively
 assess the ability of LLMs to generate variants.
 
 ## RQ2
 In this research question, we quantitatively
 assess the ability of LLMs to generate testcases.
-[Link](/rq1)
+
 
 ## RQ3
 In this research question, we find the best performing parameters
