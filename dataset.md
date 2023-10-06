@@ -350,6 +350,7 @@ t = [elem[i] for i in range(len(elem))
     </tr>
 </table>
 </div>
+
 ## [RQ1](/rq1)
 In this research question, we quantitatively
 assess the ability of LLMs to generate variants.
