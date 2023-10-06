@@ -355,7 +355,7 @@ t = [elem[i] for i in range(len(elem))
 In this research question, we quantitatively
 assess the ability of LLMs to generate variants.
 
-## RQ2
+## [RQ2](/rq2)
 In this research question, we quantitatively
 assess the ability of LLMs to generate testcases.
 
