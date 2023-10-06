@@ -6,17 +6,9 @@ layout: default
 Here, we describe and detail the data used to 
 back our findings in various research questions.
 
-## RQ1
-In this research question, we quantitatively
-assess the ability of LLMs to generate variants.
-
-## RQ2
-In this research question, we quantitatively
-assess the ability of LLMs to generate testcases.
-
-## RQ3
-In this research question, we find the best performing parameters
-for generating variants (gpt-3.5)
+## Table 1
+The table below adds details to the _table 1_ 
+described in the paper.
 <table>
     <tr>
         <td>CPAT Number</td>
@@ -276,3 +268,19 @@ t = [elem[i] for i in range(len(elem))
 <td>71 </td>
     </tr>
 </table>
+
+## RQ1
+In this research question, we quantitatively
+assess the ability of LLMs to generate variants.
+
+## RQ2
+In this research question, we quantitatively
+assess the ability of LLMs to generate testcases.
+
+## RQ3
+In this research question, we find the best performing parameters
+for generating variants (gpt-3.5)
+
+## RQ4
+In this research question, we find the best performing parameters
+for generating testcases (gpt-3.5)
