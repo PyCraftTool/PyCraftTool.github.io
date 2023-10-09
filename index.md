@@ -16,4 +16,4 @@ Requirements:
 [This](/dataset) link contains the datset detailed in the paper.
 
 # [Supplemental Plots](/plots)
-We provide additional plots for Figure 5 and Figure 7 in the paper.
+We provide additional plots for [Figure 5](/plots#figure-5) and [Figure 7](/plots#figure-7) in the paper.
