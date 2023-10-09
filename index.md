@@ -3,9 +3,9 @@ layout: default
 ---
 
 # Table of Contents
-1. Tool
-2. Dataset
-3. Supplemental Plots
+1. [Tool](/#1-tool)
+2. [Dataset](/#2-dataset)
+3. [Supplemental Plots](/#3-supplemental-plots)
 
 # 1. [Tool](https://github.com/PyCraftTool/PyCraft)
 The tool, along with installation and usage instructions can be found [here](https://github.com/PyCraftTool/PyCraft).
