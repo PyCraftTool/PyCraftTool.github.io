@@ -10,8 +10,7 @@ layout: default
 # 1. [Tool](https://github.com/PyCraftTool/PyCraft)
 The tool, along with installation and usage instructions can be found [here](https://github.com/PyCraftTool/PyCraft).
 
-# 2. [Dataset](/dataset)
-[This](/dataset) link contains the dataset used to infer results in the paper.
+# 2. Dataset
 
 ## Table 1
 The table below adds details to the table-1 described in the paper. 
