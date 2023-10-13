@@ -382,11 +382,11 @@ with tempfile.TemporaryDirectory() as temp_dir:
 
 </td>
 <td>
-<a href="/">
--</a> </td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/context-manager-tempfile/all_variants.json">
+524</a> </td>
 <td>
-<a href="/">
-- </a></td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/context-manager-tempfile/correct_variants.json">
+150 </a></td>
 <td>
 <a href="/">
 - </a> </td>
@@ -414,11 +414,11 @@ mean=np.mean(arr1)
 
 </td>
 <td>
-<a href="/">
--</a> </td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/np-mean/all_variants.json">
+482</a> </td>
 <td>
-<a href="/">
-- </a></td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/np-mean/correct_variants.json">
+97 </a></td>
 <td>
 <a href="/">
 - </a> </td>
@@ -447,11 +447,11 @@ result = np.linalg.multi_dot([arr1, arr2, arr3])
 
 </td>
 <td>
-<a href="/">
--</a> </td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/np-multidot/all_variants.json">
+439</a> </td>
 <td>
-<a href="/">
-- </a></td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/np-multidot/correct_variants.json">
+0 </a></td>
 <td>
 <a href="/">
 - </a> </td>
@@ -480,11 +480,11 @@ a,b,c = x,y,z
 
 </td>
 <td>
-<a href="/">
--</a> </td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/assign-multiple-targets/all_variants.json">
+437</a> </td>
 <td>
-<a href="/">
-- </a></td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/assign-multiple-targets/correct_variants.json">
+11 </a></td>
 <td>
 <a href="/">
 - </a> </td>
@@ -512,11 +512,11 @@ a,b = b,a
 
 </td>
 <td>
-<a href="/">
--</a> </td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/swapping-variables/all_variants.json">
+385</a> </td>
 <td>
-<a href="/">
-- </a></td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/swapping-variables/correct_variants.json">
+77 </a></td>
 <td>
 <a href="/">
 - </a> </td>
@@ -546,11 +546,11 @@ if (bool(number_value)):
 
 </td>
 <td>
-<a href="/">
--</a> </td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/non-zero-compare/all_variants.json">
+406</a> </td>
 <td>
-<a href="/">
-- </a></td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/non-zero-compare/correct_variants.json">
+69 </a></td>
 <td>
 <a href="/">
 - </a> </td>
@@ -579,11 +579,11 @@ n = getattr(obj, 'name', 'unknown')
 
 </td>
 <td>
-<a href="/">
--</a> </td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/getattr/all_variants.json">
+451</a> </td>
 <td>
-<a href="/">
-- </a></td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/getattr/correct_variants.json">
+109 </a></td>
 <td>
 <a href="/">
 - </a> </td>
@@ -613,11 +613,11 @@ if isinstance(int_instance, int):
 
 </td>
 <td>
-<a href="/">
--</a> </td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/is-instance/all_variants.json">
+465</a> </td>
 <td>
-<a href="/">
-- </a></td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/is-instance/correct_variants.json">
+39 </a></td>
 <td>
 <a href="/">
 - </a> </td>
@@ -645,11 +645,11 @@ with open(file_path, 'r') as f:
 
 </td>
 <td>
-<a href="/">
--</a> </td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/file-context-manager/all_variants.json">
+565</a> </td>
 <td>
-<a href="/">
-- </a></td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/file-context-manager/correct_variants.json">
+20 </a></td>
 <td>
 <a href="/">
 - </a> </td>
@@ -680,11 +680,11 @@ else:
 
 </td>
 <td>
-<a href="/">
--</a> </td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/any-func/all_variants.json">
+434</a> </td>
 <td>
-<a href="/">
-- </a></td>
+<a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/any-func/correct_variants.json">
+136 </a></td>
 <td>
 <a href="/">
 - </a> </td>
