@@ -355,6 +355,343 @@ t = [elem[i] for i in range(len(elem))
 <a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/list-comprehension/aplicable_variants.json">
 71 </a></td>
     </tr>
+
+
+<tr>
+<td>11</td>
+<td>
+
+<pre>
+import tempfile
+temp_dir = tempfile.TemporaryDirectory()
+file=temp_dir.name+"/features.json"
+f=open(file, 'w')
+f.write(content)
+temp_dir.cleanup()
+</pre>
+
+</td>
+<td>
+
+<pre>
+with tempfile.TemporaryDirectory() as temp_dir:
+    file=temp_dir+"/features.json"
+    f=open(file, 'w')
+    f.write(content)
+</pre>
+
+</td>
+<td>
+<a href="/">
+-</a> </td>
+<td>
+<a href="/">
+- </a></td>
+<td>
+<a href="/">
+- </a> </td>
+<td>
+<a href="/">
+- </a></td>
+    </tr>
+
+
+<tr>
+<td>12</td>
+<td>
+
+<pre>
+mean = sum(arr1)/len(arr1)
+</pre>
+
+</td>
+<td>
+
+<pre>
+import numpy as np
+mean=np.mean(arr1)
+</pre>
+
+</td>
+<td>
+<a href="/">
+-</a> </td>
+<td>
+<a href="/">
+- </a></td>
+<td>
+<a href="/">
+- </a> </td>
+<td>
+<a href="/">
+- </a></td>
+    </tr>
+
+
+<tr>
+<td>13</td>
+<td>
+
+<pre>
+import numpy as np
+result = np.dot(np.dot(arr1, arr2), arr3)
+</pre>
+
+</td>
+<td>
+
+<pre>
+import numpy as np
+result = np.linalg.multi_dot([arr1, arr2, arr3])
+</pre>
+
+</td>
+<td>
+<a href="/">
+-</a> </td>
+<td>
+<a href="/">
+- </a></td>
+<td>
+<a href="/">
+- </a> </td>
+<td>
+<a href="/">
+- </a></td>
+    </tr>
+
+
+<tr>
+<td>14</td>
+<td>
+
+<pre>
+a=x
+b=y
+c=z
+</pre>
+
+</td>
+<td>
+
+<pre>
+a,b,c = x,y,z
+</pre>
+
+</td>
+<td>
+<a href="/">
+-</a> </td>
+<td>
+<a href="/">
+- </a></td>
+<td>
+<a href="/">
+- </a> </td>
+<td>
+<a href="/">
+- </a></td>
+    </tr>
+
+<tr>
+<td>15</td>
+<td>
+
+<pre>
+temp = a
+a = b
+b = temp
+</pre>
+
+</td>
+<td>
+
+<pre>
+a,b = b,a
+</pre>
+
+</td>
+<td>
+<a href="/">
+-</a> </td>
+<td>
+<a href="/">
+- </a></td>
+<td>
+<a href="/">
+- </a> </td>
+<td>
+<a href="/">
+- </a></td>
+    </tr>
+
+<tr>
+<td>16</td>
+<td>
+
+<pre>
+val=val1
+if (number_value!=0):
+     val=val2
+</pre>
+
+</td>
+<td>
+
+<pre>
+val=val1
+if (bool(number_value)):
+     val=val2
+</pre>
+
+</td>
+<td>
+<a href="/">
+-</a> </td>
+<td>
+<a href="/">
+- </a></td>
+<td>
+<a href="/">
+- </a> </td>
+<td>
+<a href="/">
+- </a></td>
+    </tr>
+
+<tr>
+<td>17</td>
+<td>
+
+<pre>
+try:
+  n = obj.name
+except:
+  n = "unknown"
+</pre>
+
+</td>
+<td>
+
+<pre>
+n = getattr(obj, 'name', 'unknown')
+</pre>
+
+</td>
+<td>
+<a href="/">
+-</a> </td>
+<td>
+<a href="/">
+- </a></td>
+<td>
+<a href="/">
+- </a> </td>
+<td>
+<a href="/">
+- </a></td>
+    </tr>
+
+<tr>
+<td>18</td>
+<td>
+
+<pre>
+val=val1
+if type(int_instance) is int:
+    val=val2
+</pre>
+
+</td>
+<td>
+
+<pre>
+val=val1
+if isinstance(int_instance, int):
+    val=val2
+</pre>
+
+</td>
+<td>
+<a href="/">
+-</a> </td>
+<td>
+<a href="/">
+- </a></td>
+<td>
+<a href="/">
+- </a> </td>
+<td>
+<a href="/">
+- </a></td>
+    </tr>
+<tr>
+<td>19</td>
+<td>
+
+<pre>
+file = open(file_path, 'r')
+contents = file.read()
+file.close()
+</pre>
+
+</td>
+<td>
+
+<pre>
+with open(file_path, 'r') as f:
+    contents = f.read()
+</pre>
+
+</td>
+<td>
+<a href="/">
+-</a> </td>
+<td>
+<a href="/">
+- </a></td>
+<td>
+<a href="/">
+- </a> </td>
+<td>
+<a href="/">
+- </a></td>
+    </tr>
+<tr>
+<td>20</td>
+<td>
+
+<pre>
+if(c1 or c2 or c3 or c4):
+  value = val1
+else:
+  value = val2
+</pre>
+
+</td>
+<td>
+
+<pre>
+if any((c1,c2,c3,c4)):
+  value = val1
+else:
+  value = val2
+</pre>
+
+</td>
+<td>
+<a href="/">
+-</a> </td>
+<td>
+<a href="/">
+- </a></td>
+<td>
+<a href="/">
+- </a> </td>
+<td>
+<a href="/">
+- </a></td>
+    </tr>
 </table>
 </div>
 
