@@ -5,7 +5,7 @@ layout: default
 # Table of Contents
 1. [Tool](/#1-tool)
 2. [Dataset](/#2-dataset)
-3. [Patch Submission] (/#3-patch-submission)
+3. [Patch Submission](/#3-patch-submission)
 4. [Supplemental Plots](/#4-supplemental-plots)
 
 # 1. [Tool](https://github.com/PyCraftTool/PyCraft)
