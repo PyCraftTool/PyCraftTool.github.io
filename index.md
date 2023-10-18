@@ -22,8 +22,21 @@ The table below adds details to the table-1 described in the paper.
 
 Please **scroll** right to view the entire table.
 
-explain json here.
-add dummy object
+Each number inside the table links to a JSON list 
+containing the corresponding data. Each element in the JSON
+list is a piece of code, in the form of a string.
+
+Here is a sample JSON list:
+```
+[
+ "count = 0\nfor i in int_list:\n    count += i",
+ "import numpy as np\ncount = np.sum(int_list)",
+ "count = sum(int_list)",
+ .
+ .
+ .
+]
+```
 
 <div style="overflow-x:scroll">
 <table>
@@ -397,11 +410,9 @@ with tempfile.TemporaryDirectory() as temp_dir:
 <a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/context-manager-tempfile/correct_variants.json">
 150 </a></td>
 <td>
-<a href="/">
-- </a> </td>
+- </td>
 <td>
-<a href="/">
-- </a></td>
+-</td>
     </tr>
 
 
@@ -429,11 +440,9 @@ mean=np.mean(arr1)
 <a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/np-mean/correct_variants.json">
 97 </a></td>
 <td>
-<a href="/">
-- </a> </td>
+- </td>
 <td>
-<a href="/">
-- </a></td>
+-</td>
     </tr>
 
 
@@ -462,11 +471,9 @@ result = np.linalg.multi_dot([arr1, arr2, arr3])
 <a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/np-multidot/correct_variants.json">
 0 </a></td>
 <td>
-<a href="/">
-- </a> </td>
+- </td>
 <td>
-<a href="/">
-- </a></td>
+-</td>
     </tr>
 
 
@@ -495,11 +502,9 @@ a,b,c = x,y,z
 <a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/assign-multiple-targets/correct_variants.json">
 11 </a></td>
 <td>
-<a href="/">
-- </a> </td>
+- </td>
 <td>
-<a href="/">
-- </a></td>
+-</td>
     </tr>
 
 <tr>
@@ -527,11 +532,9 @@ a,b = b,a
 <a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/swapping-variables/correct_variants.json">
 77 </a></td>
 <td>
-<a href="/">
-- </a> </td>
+- </td>
 <td>
-<a href="/">
-- </a></td>
+-</td>
     </tr>
 
 <tr>
@@ -561,11 +564,9 @@ if (bool(number_value)):
 <a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/non-zero-compare/correct_variants.json">
 69 </a></td>
 <td>
-<a href="/">
-- </a> </td>
+- </td>
 <td>
-<a href="/">
-- </a></td>
+-</td>
     </tr>
 
 <tr>
@@ -594,11 +595,9 @@ n = getattr(obj, 'name', 'unknown')
 <a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/getattr/correct_variants.json">
 109 </a></td>
 <td>
-<a href="/">
-- </a> </td>
+- </td>
 <td>
-<a href="/">
-- </a></td>
+-</td>
     </tr>
 
 <tr>
@@ -628,11 +627,9 @@ if isinstance(int_instance, int):
 <a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/is-instance/correct_variants.json">
 39 </a></td>
 <td>
-<a href="/">
-- </a> </td>
+- </td>
 <td>
-<a href="/">
-- </a></td>
+-</td>
     </tr>
 <tr>
 <td>19</td>
@@ -660,11 +657,9 @@ with open(file_path, 'r') as f:
 <a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/file-context-manager/correct_variants.json">
 20 </a></td>
 <td>
-<a href="/">
-- </a> </td>
+- </td>
 <td>
-<a href="/">
-- </a></td>
+-</td>
     </tr>
 <tr>
 <td>20</td>
@@ -695,11 +690,9 @@ else:
 <a href="https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/Table1/any-func/correct_variants.json">
 136 </a></td>
 <td>
-<a href="/">
-- </a> </td>
+- </td>
 <td>
-<a href="/">
-- </a></td>
+-</td>
     </tr>
 </table>
 </div>
@@ -741,7 +734,28 @@ Each csv file linked below contains these 4 columns:
 
 ## RQ4
 In this research question, we find the best performing parameters
-for generating testcases (gpt-3.5)
+for generating testcases (gpt-3.5).
+
+The links below contain data in the form of a JSON list. Each element 
+of the list contains a JSON object which represents a test case.
+Here is an example:
+
+```
+[
+  {
+    "init": "int_list=[]",
+    "assertion": "assert count == 0"
+  },
+  .
+  .
+  .
+]  
+```
+
+The key "init" contains a piece of code to initialise the input
+variables. The key "assertion" contains assertion statements to 
+validate the correctness of the variant.
+
 
 Handwritten test cases can be found [here](https://github.com/PyCraftTool/PyCraft/tree/main/data/paper/RQ4/manual_tests). 
 These tests were used to benchmark the performance of LLMs.

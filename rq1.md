@@ -1,5 +1,21 @@
 # RQ1
 
+Each number inside the following tables links to a JSON list 
+containing the corresponding data. Each element in the JSON
+list is a piece of code, in the form of a string.
+
+Here is a sample JSON list:
+```
+[
+ "count = 0\nfor i in int_list:\n    count += i",
+ "import numpy as np\ncount = np.sum(int_list)",
+ "count = sum(int_list)",
+ .
+ .
+ .
+]
+```
+
 ## GPT-3.5
 
 | CPAT                     | correct                                                                                                                    | syntax-errors                                                                                                                 | type-errors                                                                                                                  | import-errors                                                                                                                  | invalid_format | incorrect                                                                                                                    |

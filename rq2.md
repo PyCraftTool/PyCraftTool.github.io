@@ -1,5 +1,25 @@
 # RQ2
 
+The links in the tables below contain data in the form of a JSON list. 
+Each element of the list contains a JSON object which represents a test case.
+Here is an example:
+
+```
+[
+  {
+    "init": "int_list=[]",
+    "assertion": "assert count == 0"
+  },
+  .
+  .
+  .
+]  
+```
+
+The key "init" contains a piece of code to initialise the input
+variables. The key "assertion" contains assertion statements to 
+validate the correctness of the variant.
+
 ## GPT-3.5
 
 | CPAT                     | num-tests                                                                                                            | invalid_format_count                                                                                                         | syntax_err_count                                                                                                            | uninitialised_vars_count                                                                                                          | invalid_test_count                                                                                                      |
