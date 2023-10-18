@@ -42,6 +42,7 @@ Here is a sample JSON list:
 <table>
     <tr>
         <td>CPAT Number</td>
+        <td>CPAT Name</td>
         <td>LHS</td>
         <td>RHS</td>
         <td>Total Variants</td>
@@ -50,7 +51,7 @@ Here is a sample JSON list:
         <td>Applicable Variants</td>
     </tr>
     <tr>
-<td>1</td>
+<td>1</td><td>numpy-sum</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -82,7 +83,7 @@ count = np.sum(int_list)
 50</a></td>
     </tr>
     <tr>
-<td>2</td>
+<td>2</td><td>dict-update</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -112,7 +113,7 @@ d.update(add_dict)
 110</a></td>
     </tr>
     <tr>
-<td>3</td>
+<td>3</td><td>set-intersection</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -145,7 +146,7 @@ common = list(set(l1).
 66</a></td>
     </tr>
     <tr>
-<td>4</td>
+<td>4</td><td>string-join</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -179,7 +180,7 @@ string = "[" + ", ".join(values)+ "]"
 10</a></td>
     </tr>
     <tr>
-<td>5</td>
+<td>5</td><td>dict-setdefault</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -215,7 +216,7 @@ for i in array:
 75</a></td>
     </tr>
     <tr>
-<td>6</td>
+<td>6</td><td>collections-counter</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -249,7 +250,7 @@ counts = Counter(iterable)
 85</a></td>
     </tr>
     <tr>
-<td>7</td>
+<td>7</td><td>numpy-cumsum</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -281,7 +282,7 @@ cum_arr = np.cumsum(array)
 80</a></td>
     </tr>
     <tr>
-<td>8</td>
+<td>8</td><td>numpy-dot</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -313,7 +314,7 @@ dot_prod = np.dot(arr1, arr2)
 24</a></td>
     </tr>
     <tr>
-<td>9</td>
+<td>9</td><td>numpy-add</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -345,7 +346,7 @@ result = np.add(array1, array2)
 9</a></td>
     </tr>
     <tr>
-<td>10</td>
+<td>10</td><td>list-comprehension</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -380,7 +381,7 @@ t = [elem[i] for i in range(len(elem))
 
 
 <tr>
-<td>11</td>
+<td>11</td><td>context-manager-tempfile</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -417,7 +418,7 @@ with tempfile.TemporaryDirectory() as temp_dir:
 
 
 <tr>
-<td>12</td>
+<td>12</td><td>np-mean</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -447,7 +448,7 @@ mean=np.mean(arr1)
 
 
 <tr>
-<td>13</td>
+<td>13</td><td>np-multidot</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -478,7 +479,7 @@ result = np.linalg.multi_dot([arr1, arr2, arr3])
 
 
 <tr>
-<td>14</td>
+<td>14</td><td>assign-multiple-targets</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -508,7 +509,7 @@ a,b,c = x,y,z
     </tr>
 
 <tr>
-<td>15</td>
+<td>15</td><td>swapping-variables</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -538,7 +539,7 @@ a,b = b,a
     </tr>
 
 <tr>
-<td>16</td>
+<td>16</td><td>non-zero-compare</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -570,7 +571,7 @@ if (bool(number_value)):
     </tr>
 
 <tr>
-<td>17</td>
+<td>17</td><td>getattr</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -601,7 +602,7 @@ n = getattr(obj, 'name', 'unknown')
     </tr>
 
 <tr>
-<td>18</td>
+<td>18</td><td>is-instance</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -632,7 +633,7 @@ if isinstance(int_instance, int):
 -</td>
     </tr>
 <tr>
-<td>19</td>
+<td>19</td><td>file-context-manager</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
@@ -662,7 +663,7 @@ with open(file_path, 'r') as f:
 -</td>
     </tr>
 <tr>
-<td>20</td>
+<td>20</td><td>any-func</td>
 <td>
 
 <pre style="width:200px; overflow:auto">
