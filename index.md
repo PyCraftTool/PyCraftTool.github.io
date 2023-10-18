@@ -704,12 +704,12 @@ else:
 </table>
 </div>
 
-## [RQ1](/rq1)
-In this research question, we quantitatively
+## RQ1
+In [RQ1](/rq1), we quantitatively
 assess the ability of LLMs to generate variants.
 
-## [RQ2](/rq2)
-In this research question, we quantitatively
+## RQ2
+In [RQ2](/rq2), we quantitatively
 assess the ability of LLMs to generate testcases.
 
 
@@ -804,5 +804,7 @@ Below is the status of the pull requests we submitted.
 
 
 
-# 4. [Supplemental Plots](/plots)
+# 4. Supplemental Plots
+Supplemental plots can be found [here](/plots).
+
 We provide additional plots for [Figure 5](/plots#figure-5) and [Figure 7](/plots#figure-7) in the paper.
