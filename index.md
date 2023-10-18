@@ -38,17 +38,21 @@ Here is a sample JSON list:
 ]
 ```
 
+
 <div style="overflow-x:scroll">
 <table>
     <tr>
-        <td>CPAT Number</td>
-        <td>CPAT Name</td>
-        <td>LHS</td>
-        <td>RHS</td>
-        <td>Total Variants</td>
-        <td>Correct Variants</td>
-        <td>Useful Variants</td>
-        <td>Applicable Variants</td>
+        <th rowspan="2">CPAT Number</th>
+        <th rowspan="2">CPAT Name</th>
+        <th rowspan="2">LHS</th>
+        <th rowspan="2">RHS</th>
+        <th colspan="4">Variants</th>
+    </tr>
+    <tr>
+        <th>Total</th>
+        <th>Correct</th>
+        <th>Useful </th>
+        <th>Applicable</th>
     </tr>
     <tr>
 <td>1</td><td>numpy-sum</td>
