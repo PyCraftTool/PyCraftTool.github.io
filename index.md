@@ -2,13 +2,17 @@
 layout: default
 ---
 
+
 # Table of Contents
+
+Below, we present four supplementary materials:
+
 1. [Tool](/#1-tool)
 2. [Dataset](/#2-dataset)
 3. [Patch Submission](/#3-patch-submission)
 4. [Supplemental Plots](/#4-supplemental-plots)
 
-# 1. [Tool](https://github.com/PyCraftTool/PyCraft)
+# 1. Tool
 The tool, along with installation and usage instructions can be found [here](https://github.com/PyCraftTool/PyCraft).
 
 # 2. Dataset
@@ -17,6 +21,10 @@ The tool, along with installation and usage instructions can be found [here](htt
 The table below adds details to the table-1 described in the paper. 
 
 Please **scroll** right to view the entire table.
+
+explain json here.
+add dummy object
+
 <div style="overflow-x:scroll">
 <table>
     <tr>
@@ -32,7 +40,7 @@ Please **scroll** right to view the entire table.
 <td>1</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 count = 0
 for i in int_list:
    count = count + i
@@ -41,7 +49,7 @@ for i in int_list:
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 import numpy as np
 count = np.sum(int_list)
 </pre>
@@ -64,7 +72,7 @@ count = np.sum(int_list)
 <td>2</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 for k, v in add_dict.items():
     d[k] = v 
 </pre>
@@ -72,7 +80,7 @@ for k, v in add_dict.items():
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 d.update(add_dict)
 </pre>
 
@@ -94,7 +102,7 @@ d.update(add_dict)
 <td>3</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 common = []
 for i in l1:
     if i in l2 and i not in common:
@@ -104,7 +112,7 @@ for i in l1:
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 common = list(set(l1).
             intersection(l2))
 </pre>
@@ -127,7 +135,7 @@ common = list(set(l1).
 <td>4</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 string = "["
 for idx, item in enumerate(values):
     if idx != 0:
@@ -139,7 +147,7 @@ string += "]"
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 string = "[" + ", ".join(values)+ "]"
 </pre>
 
@@ -161,7 +169,7 @@ string = "[" + ", ".join(values)+ "]"
 <td>5</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 d = {}
 for i in array:
   if i in d:
@@ -173,7 +181,7 @@ for i in array:
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 d = {}
 for i in array:
     d.setdefault(i, []).append(f(i))
@@ -197,7 +205,7 @@ for i in array:
 <td>6</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 counts = {}
 for i in iterable:
     if i not in counts:
@@ -208,7 +216,7 @@ for i in iterable:
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 from collections import Counter
 counts = Counter(iterable)
 </pre>
@@ -231,7 +239,7 @@ counts = Counter(iterable)
 <td>7</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 cum_arr = []
 for i in range(len(array)):
     cum_arr.append(sum(array[:i+1]))
@@ -240,7 +248,7 @@ for i in range(len(array)):
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 import numpy as np
 cum_arr = np.cumsum(array)
 </pre>
@@ -263,7 +271,7 @@ cum_arr = np.cumsum(array)
 <td>8</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 dot_prod = 0
 for i in range(len(arr1)):
     dot_prod += arr1[i] * arr2[i]
@@ -272,7 +280,7 @@ for i in range(len(arr1)):
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 import numpy as np
 dot_prod = np.dot(arr1, arr2)
 </pre>
@@ -295,7 +303,7 @@ dot_prod = np.dot(arr1, arr2)
 <td>9</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 result = []
 for i in range(len(array1)):
     result.append(array1[i] + array2[i])
@@ -304,7 +312,7 @@ for i in range(len(array1)):
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 import numpy as np
 result = np.add(array1, array2)
 </pre>
@@ -327,7 +335,7 @@ result = np.add(array1, array2)
 <td>10</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 t = []
 for i in range(len(elem)):
     if cond(elem[i]):
@@ -337,7 +345,7 @@ for i in range(len(elem)):
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 t = [elem[i] for i in range(len(elem)) 
         if cond(elem[i])]
 </pre>
@@ -362,7 +370,7 @@ t = [elem[i] for i in range(len(elem))
 <td>11</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 import tempfile
 temp_dir = tempfile.TemporaryDirectory()
 file=temp_dir.name+"/features.json"
@@ -374,7 +382,7 @@ temp_dir.cleanup()
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 with tempfile.TemporaryDirectory() as temp_dir:
     file=temp_dir+"/features.json"
     f=open(file, 'w')
@@ -401,14 +409,14 @@ with tempfile.TemporaryDirectory() as temp_dir:
 <td>12</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 mean = sum(arr1)/len(arr1)
 </pre>
 
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 import numpy as np
 mean=np.mean(arr1)
 </pre>
@@ -433,7 +441,7 @@ mean=np.mean(arr1)
 <td>13</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 import numpy as np
 result = np.dot(np.dot(arr1, arr2), arr3)
 </pre>
@@ -441,7 +449,7 @@ result = np.dot(np.dot(arr1, arr2), arr3)
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 import numpy as np
 result = np.linalg.multi_dot([arr1, arr2, arr3])
 </pre>
@@ -466,7 +474,7 @@ result = np.linalg.multi_dot([arr1, arr2, arr3])
 <td>14</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 a=x
 b=y
 c=z
@@ -475,7 +483,7 @@ c=z
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 a,b,c = x,y,z
 </pre>
 
@@ -498,7 +506,7 @@ a,b,c = x,y,z
 <td>15</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 temp = a
 a = b
 b = temp
@@ -507,7 +515,7 @@ b = temp
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 a,b = b,a
 </pre>
 
@@ -530,7 +538,7 @@ a,b = b,a
 <td>16</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 val=val1
 if (number_value!=0):
      val=val2
@@ -539,7 +547,7 @@ if (number_value!=0):
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 val=val1
 if (bool(number_value)):
      val=val2
@@ -564,7 +572,7 @@ if (bool(number_value)):
 <td>17</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 try:
   n = obj.name
 except:
@@ -574,7 +582,7 @@ except:
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 n = getattr(obj, 'name', 'unknown')
 </pre>
 
@@ -597,7 +605,7 @@ n = getattr(obj, 'name', 'unknown')
 <td>18</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 val=val1
 if type(int_instance) is int:
     val=val2
@@ -606,7 +614,7 @@ if type(int_instance) is int:
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 val=val1
 if isinstance(int_instance, int):
     val=val2
@@ -630,7 +638,7 @@ if isinstance(int_instance, int):
 <td>19</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 file = open(file_path, 'r')
 contents = file.read()
 file.close()
@@ -639,7 +647,7 @@ file.close()
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 with open(file_path, 'r') as f:
     contents = f.read()
 </pre>
@@ -662,7 +670,7 @@ with open(file_path, 'r') as f:
 <td>20</td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 if(c1 or c2 or c3 or c4):
   value = val1
 else:
@@ -672,7 +680,7 @@ else:
 </td>
 <td>
 
-<pre>
+<pre style="width:200px; overflow:auto">
 if any((c1,c2,c3,c4)):
   value = val1
 else:
