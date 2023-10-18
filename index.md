@@ -46,13 +46,13 @@ Here is a sample JSON list:
         <th rowspan="2">CPAT Name</th>
         <th rowspan="2">LHS</th>
         <th rowspan="2">RHS</th>
-        <th colspan="4">Variants</th>
+        <th colspan="4" style="text-align:center">Variants</th>
     </tr>
     <tr>
-        <th>Total</th>
-        <th>Correct</th>
-        <th>Useful </th>
-        <th>Applicable</th>
+        <th style="font-size:13">Total</th>
+        <th style="font-size:13">Correct</th>
+        <th style="font-size:13">Useful </th>
+        <th style="font-size:13"> Applicable</th>
     </tr>
     <tr>
 <td>1</td><td>numpy-sum</td>
