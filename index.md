@@ -49,10 +49,10 @@ Here is a sample JSON list:
         <th colspan="4" style="text-align:center">Variants</th>
     </tr>
     <tr>
-        <th style="font-size:13">Total</th>
-        <th style="font-size:13">Correct</th>
-        <th style="font-size:13">Useful </th>
-        <th style="font-size:13"> Applicable</th>
+        <th style="font-size:13px">Total</th>
+        <th style="font-size:13px">Correct</th>
+        <th style="font-size:13px">Useful </th>
+        <th style="font-size:13px"> Applicable</th>
     </tr>
     <tr>
 <td>1</td><td>numpy-sum</td>
@@ -721,21 +721,19 @@ Each csv file linked below contains these 4 columns:
 3. 'useful': True/False value indicating whether a real developer would write such a variant.
 4. 'applicable': Aligns with the intent of the CPAT and is 'useful'
 
-| CPAT                                                                                                           | 
-|----------------------------------------------------------------------------------------------------------------|
-| [numpy-sum](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/numpy-sum.csv)                     |
-| [list-comprehension](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/list-comprehension.csv)   |
-| [dict-update](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/dict-update.csv)                 |
-| [set-intersection](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/set-intersection.csv)       |
-| [string-join](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/string-join.csv)                 |
-| [dict-setdefault](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/dict-setdefault.csv)         |
-| [collections-counter](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/collections-counter.csv) |
-| [numpy-cumsum](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/numpy-cumsum.csv)               |
-| [numpy-dot](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/numpy-dot.csv)                     |
-| [numpy-add](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/numpy-add.csv)                     |
+ 
+### Data:
 
-
-
+* [CPAT-1](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/numpy-sum.csv)
+* [CPAT-2](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/dict-update.csv)
+* [CPAT-3](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/set-intersection.csv)
+* [CPAT-4](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/string-join.csv)
+* [CPAT-5](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/dict-setdefault.csv)
+* [CPAT-6](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/collections-counter.csv)
+* [CPAT-7](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/numpy-cumsum.csv)
+* [CPAT-8](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/numpy-dot.csv)
+* [CPAT-9](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/numpy-add.csv)
+* [CPAT-10](https://github.com/PyCraftTool/PyCraft/blob/main/data/paper/RQ3/list-comprehension.csv)
 
 ## RQ4
 In this research question, we find the best performing parameters
