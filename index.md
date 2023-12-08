@@ -775,7 +775,6 @@ Below is the status of the pull requests we submitted.
 
 | Repository                                     | Pull Request Link                                                                    | Status   |
 |:-----------------------------------------------|:-------------------------------------------------------------------------------------|:---------|
-| tosemml/featuretools                           | [pull/1](https://github.com/tosemml/featuretools/pull/1  )                           | Approved |
 | matciotola/Z-PNN                               | [pull/4](https://github.com/matciotola/Z-PNN/pull/4  )                               | Approved |
 | alexandra-chron/hierarchical-domain-adaptation | [pull/7](https://github.com/alexandra-chron/hierarchical-domain-adaptation/pull/7  ) | Approved |
 | chrhenning/hypnettorch                         | [pull/7](https://github.com/chrhenning/hypnettorch/pull/7  )                         | Approved |
@@ -818,7 +817,7 @@ Below is the status of the pull requests we submitted.
 | keras-team/keras                               | [pull/18360](https://github.com/keras-team/keras/pull/18360)                         | CLOSED   |
 
 
-
+[//]: # (| tosemml/featuretools                           | [pull/1]&#40;https://github.com/tosemml/featuretools/pull/1  &#41;                           | Approved |)
 
 
 # 4. Supplemental Plots
