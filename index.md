@@ -775,6 +775,7 @@ Below is the status of the pull requests we submitted.
 
 | Repository                                     | Pull Request Link                                                                    | Status   |
 |:-----------------------------------------------|:-------------------------------------------------------------------------------------|:---------|
+| lucidrains/audiolm-pytorch                     | [pull/228](https://github.com/lucidrains/audiolm-pytorch/pull/228  )                 | Approved |
 | undertheseanlp/underthesea                     | [pull/713](https://github.com/undertheseanlp/underthesea/pull/713  )                 | Approved |
 | mlcommons/GaNDLF                               | [pull/719](https://github.com/mlcommons/GaNDLF/pull/719  )                           | Approved |
 | matciotola/Z-PNN                               | [pull/4](https://github.com/matciotola/Z-PNN/pull/4  )                               | Approved |
@@ -793,7 +794,6 @@ Below is the status of the pull requests we submitted.
 | microsoft/DeepSpeed                            | [pull/4262](https://github.com/microsoft/DeepSpeed/pull/4262  )                      | Approved |
 | EdisonLeeeee/GreatX                            | [pull/13](https://github.com/EdisonLeeeee/GreatX/pull/13  )                          | Approved |
 | shibing624/similarities                        | [pull/15](https://github.com/shibing624/similarities/pull/15  )                      | Approved |
-| lucidrains/audiolm-pytorch                     | [pull/228](https://github.com/lucidrains/audiolm-pytorch/pull/228  )                 | Approved |
 | artitw/text2text                               | [pull/42](https://github.com/artitw/text2text/pull/42  )                             | Approved |
 | microsoft/archai                               | [pull/245](https://github.com/microsoft/archai/pull/245  )                           | Approved |
 | autonomousvision/unimatch                      | [pull/33](https://github.com/autonomousvision/unimatch/pull/33  )                    | Approved |
@@ -815,9 +815,6 @@ Below is the status of the pull requests we submitted.
 | xlang-ai/UnifiedSKG                            | [pull/40](https://github.com/xlang-ai/UnifiedSKG/pull/40 )                           | CLOSED   |
 | netsharecmu/NetShare                           | [pull/32](https://github.com/netsharecmu/NetShare/pull/32)                           | CLOSED   |
 | keras-team/keras                               | [pull/18360](https://github.com/keras-team/keras/pull/18360)                         | CLOSED   |
-
-
-[//]: # (| tosemml/featuretools                           | [pull/1]&#40;https://github.com/tosemml/featuretools/pull/1  &#41;                           | Approved |)
 
 
 # 4. Supplemental Plots
