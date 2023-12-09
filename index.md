@@ -775,6 +775,8 @@ Below is the status of the pull requests we submitted.
 
 | Repository                                     | Pull Request Link                                                                    | Status   |
 |:-----------------------------------------------|:-------------------------------------------------------------------------------------|:---------|
+| undertheseanlp/underthesea                     | [pull/713](https://github.com/undertheseanlp/underthesea/pull/713  )                 | Approved |
+| mlcommons/GaNDLF                               | [pull/719](https://github.com/mlcommons/GaNDLF/pull/719  )                           | Approved |
 | matciotola/Z-PNN                               | [pull/4](https://github.com/matciotola/Z-PNN/pull/4  )                               | Approved |
 | alexandra-chron/hierarchical-domain-adaptation | [pull/7](https://github.com/alexandra-chron/hierarchical-domain-adaptation/pull/7  ) | Approved |
 | chrhenning/hypnettorch                         | [pull/7](https://github.com/chrhenning/hypnettorch/pull/7  )                         | Approved |
@@ -782,11 +784,9 @@ Below is the status of the pull requests we submitted.
 | StanleyLsx/entity_extractor_by_pointer         | [pull/8](https://github.com/StanleyLsx/entity_extractor_by_pointer/pull/8  )         | Approved |
 | ChrisWu1997/DeepCAD                            | [pull/16](https://github.com/ChrisWu1997/DeepCAD/pull/16  )                          | Approved |
 | githubharald/SimpleHTR                         | [pull/164](https://github.com/githubharald/SimpleHTR/pull/164  )                     | Approved |
-| mlcommons/GaNDLF                               | [pull/719](https://github.com/mlcommons/GaNDLF/pull/719  )                           | Approved |
 | NeuroTorch/NeuroTorch                          | [pull/140](https://github.com/NeuroTorch/NeuroTorch/pull/140  )                      | Approved |
 | nod-ai/SHARK                                   | [pull/1817](https://github.com/nod-ai/SHARK/pull/1817  )                             | Approved |
 | Spico197/DocEE                                 | [pull/67](https://github.com/Spico197/DocEE/pull/67  )                               | Approved |
-| undertheseanlp/underthesea                     | [pull/713](https://github.com/undertheseanlp/underthesea/pull/713  )                 | Approved |
 | alteryx/featuretools                           | [pull/2607](https://github.com/alteryx/featuretools/pull/2607  )                     | Approved |
 | akkana/scripts                                 | [pull/27](https://github.com/akkana/scripts/pull/27  )                               | Approved |
 | IDEA-Research/detrex                           | [pull/305](https://github.com/IDEA-Research/detrex/pull/305  )                       | Approved |
