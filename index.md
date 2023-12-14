@@ -815,7 +815,10 @@ Below is the status of the pull requests we submitted.
 | xlang-ai/UnifiedSKG                            | [pull/40](https://github.com/xlang-ai/UnifiedSKG/pull/40 )                           | CLOSED   |
 | netsharecmu/NetShare                           | [pull/32](https://github.com/netsharecmu/NetShare/pull/32)                           | CLOSED   |
 | keras-team/keras                               | [pull/18360](https://github.com/keras-team/keras/pull/18360)                         | CLOSED   |
-
+| AIRI-Institute/Probing_framework               | [pull/131](https://github.com/AIRI-Institute/Probing_framework/pull/131)             | Approved |
+| TorchSSL/TorchSSL                              | [pull/72](https://github.com/TorchSSL/TorchSSL/pull/72)                              | OPEN     |
+| DerrickXuNu/OpenCOOD                           | [pull/107](https://github.com/DerrickXuNu/OpenCOOD/pull/107)                         | OPEN     |
+| adalca/neurite                                 | [pull/74](https://github.com/adalca/neurite/pull/74)                                 | OPEN     |     
 
 # 4. Supplemental Plots
 Supplemental plots can be found [here](/plots).
